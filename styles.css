@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+tr{
+    background: #E8E8FF; 
+}
+.bg{
+    background: #B8B7FF;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-bar{
+    display: flex;
+    padding: var(--Header, 0px);
+    align-items: flex-end;
+    gap: 20px;
+}
+.input-info{
+    display: flex;
+    padding: var(--Header, 0px);
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.input-box-large{
+    display: flex;
+    width: fit-content;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--Header, 0px);
+    border: var(--Header, 1px) solid var(--Black, #000);
+    background: var(--White, #FFF);
+}
+.input-box-small{
+    display: flex;
+    padding: 12px;
+    width: fit-content;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch; 
+    border-radius: var(--Header, 0px);
+    border: var(--Header, 1px) solid var(--Black, #000);
+    background: var(--White, #FFF);
+}
+.button{
+    display: inline-flex;
+    padding: 12.5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #000;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th, .styled-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease-in-out;
+}
+
